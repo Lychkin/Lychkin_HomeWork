@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	setlocale(LC_ALL, "Rus");
+
+	int a,i,b;
+
+	cout << "Введите число A\n";
+
+	cin >> a;
+
+
+	cout << "Введите число B\n";
+
+	cin >> b;
+
+	cout << "\n";
+
+	for (i = 0; i < a; ) {
+		cout << i << endl;
+		i += b;
+}
+
+}
