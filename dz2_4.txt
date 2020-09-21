@@ -21,7 +21,7 @@ int main()
 	cout << "\n";
 
 	for (i = 0; i < a; ) {
-		cout << i << endl;
+		cout << i << "\n";
 		i += b;
 }
 
