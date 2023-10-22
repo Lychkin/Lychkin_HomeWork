@@ -1,0 +1,2 @@
+The Python "OSError [Errno 22] invalid argument" is most often caused when you have an invalid character in your filename when calling open(), e.g. a colon : or a question mark ?.
+To solve the error, make sure the specified path doesn't contain any invalid characters.
